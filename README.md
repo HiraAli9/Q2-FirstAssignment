@@ -12,8 +12,7 @@ The model parameter specifies which version of the OpenAI language model you wan
 - **GPT-3.5** is faster and cheaper, while **GPT-4** is more advanced and better at understanding complex prompts.  
 - The model you choose impacts how well the API can process your input and provide accurate or creative responses, depending on the task.
 ## 3. Max Completion Tokens
-The max completion tokens parameter sets a limit on the maximum number of tokens (words,  
-punctuation, and spaces counted together) that the model can include in its response.
+The max completion tokens parameter sets a limit on the maximum number of tokens (words,  punctuation, and spaces counted together) that the model can include in its response.
 - This is important for controlling the response length and managing costs.
 ### For example 
 Setting max_tokens=50 will cut off the output after 50 tokens.  
