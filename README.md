@@ -18,7 +18,8 @@ punctuation, and spaces counted together) that the model can include in its resp
 - This is important for controlling the response length and managing costs.
 ### For example 
 Setting max_tokens=50 will cut off the output after 50 tokens.  
-If not managed, the response could become unnecessarily long, especially for creative or open-ended prompts. It also ensures you stay within token limits for your API usage.
+- If not managed, the response could become unnecessarily long, especially for creative or open-ended prompts.
+- It also ensures you stay within token limits for your API usage.
 ## 4. n
 The n parameter determines how many response variations you want the model to generate for a single input.
 - If you set n=3, the API will return three different responses to your query.
