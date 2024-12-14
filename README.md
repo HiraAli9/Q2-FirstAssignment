@@ -40,8 +40,8 @@ The top_p parameter (also called nucleus sampling) is another way to control the
 - It works by limiting the model to the most likely tokens that add up to a specific probability.
 ### For example 
  top_p=0.9 keeps only the top 90% of likely words.  
- This makes responses more balanced and avoids overly random outputs. Top_p and temperature can be adjusted, but usually not together—it's  
- better to tweak one at a time for controlled results.
+ - This makes responses more balanced and avoids overly random outputs.  
+ - Top_p and temperature can be adjusted, but usually not together—it's better to tweak one at a time for controlled results.
 ## 8. Tools
 The tools parameter enables the model to interact with external tools or APIs to perform additional tasks, such as fetching real-time data,  
 performing calculations, or accessing external systems.
