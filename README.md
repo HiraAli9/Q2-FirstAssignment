@@ -7,10 +7,10 @@ The messages parameter defines the structure of the input for the Chat Completio
 
     This structure helps maintain a conversation-like flow and allows the model to generate relevant responses based on context.
 ## 2. Model
-The model parameter specifies which version of the OpenAI language model you want to use, such as gpt-3.5-turbo or gpt-4.Each model has different levels of performance, accuracy, and cost.
+The model parameter specifies which version of the OpenAI language model you want to use, such as gpt-3.5-turbo or gpt-4. Each model has different levels of performance, accuracy, and cost.
 ### For example 
-**GPT-3.5** is faster and cheaper, while **GPT-4** is more advanced and better at understanding complex prompts.  
-The model you choose impacts how well the API can process your input and provide accurate or creative responses, depending on the task.
+- **GPT-3.5** is faster and cheaper, while **GPT-4** is more advanced and better at understanding complex prompts.  
+- The model you choose impacts how well the API can process your input and provide accurate or creative responses, depending on the task.
 ## 3. Max Completion Tokens
 The max completion tokens parameter sets a limit on the maximum number of tokens (words,  
 punctuation, and spaces counted together) that the model can include in its response.
